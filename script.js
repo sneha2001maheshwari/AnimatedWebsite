@@ -17,8 +17,8 @@ h4all.forEach(function (elem) {
   });
   elem.addEventListener("mouseleave", function () {
     crsr.style.scale = 1;
-    crsr.style.border = "0px solid #95C11E";
-    crsr.style.backgroundColor = "#95C11E";
+    crsr.style.border = "0px solid #248b91";
+    crsr.style.backgroundColor = "#248b91";
   });
 });
 
@@ -111,4 +111,4 @@ gsap.from("#page4 h1", {
   },
 });
 
-// Thanks itna aage tak aane ke liye lekin pura code utha ke copy paste karne ki jagah khud ek baar banane ka try karna, kuch naya seekhne ko milega!
+
