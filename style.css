@@ -40,9 +40,10 @@ body {
   transition: all linear 0.1s;
 }
 #cursor-blur {
+
   height: 500px;
-  width: 500px;
-  background-color: #395555;
+  width: 360px;
+  background-color: #383f3f;
   border-radius: 50%;
   position: fixed;
   filter: blur(80px);
@@ -50,7 +51,7 @@ body {
   transition: all linear 0.4s;
 }
 #nav {
-  height: 130px;
+  height: 120px;
   width: 100%;
   /* background-color: red; */
   display: flex;
@@ -233,7 +234,7 @@ video {
   z-index: 10;
 }
 .card {
-  height: 80%;
+  height: 80%; 
   width: 24%;
   /* background-color: blue; */
   border-radius: 20px;
@@ -276,7 +277,7 @@ video {
   opacity: 1;
 }
 .card:hover {
-  transform: rotate3d(-1, 1, 0, 20deg);
+  transform: rotate3d(-1, 1, 0,20deg);
 }
 
 #green-div {
@@ -285,8 +286,9 @@ video {
   align-items: center;
   justify-content: space-between;
   /* background-color: red; */
-  background: linear-gradient(to left bottom, #114a9f, #22e0a1);
+  background: linear-gradient(to left bottom, #114a9f, hsl(160, 75%, 51%));
 }
+
 #green-div h4 {
   width: 45%;
   line-height: 50px;
